@@ -449,7 +449,7 @@ ul.address li ul.address-text li a {
     letter-spacing: 2px;
 }
 ul.address li ul.address-text li a:hover {
-    color: #000;
+    color: rgb(255, 5, 5);
 }
 .hire-w3lgrids {
     margin-top: 3em;
@@ -724,7 +724,7 @@ span.font {
     text-align: center;
 }
 .education-info,.exp-info-right {
-    padding: 21em 0em;
+    padding: 14em 0em;
 }
 .back-shadow{-webkit-box-shadow: -3px 7px 39px -5px rgba(0,0,0,0);
     -moz-box-shadow: -3px 7px 39px -5px rgba(0,0,0,0);
@@ -913,7 +913,7 @@ img.zoom-img:hover {
 }
 footer {
     text-align: center;
-    background:#fb8a2e;
+    background:#313131;
     padding: 2em 0;
 }
 footer p {
@@ -1549,7 +1549,7 @@ ul.address li ul.address-text li:nth-child(1) {
     font-size: 39px;
 }
 .about, .services, .contact, .gallery, .experience {
-    padding: 2.9em 0;
+    padding: 2em 0;
 }
 .map-grid iframe {
     height: 240px;
