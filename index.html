@@ -554,25 +554,19 @@
 	<script src="js/responsiveslides.min.js"></script>
 
 	<script>
-		// You can also use "$(window).load(function() {"
-		$(function () {
-			// Slideshow 4
-			$("#slider4").responsiveSlides({
-				auto: true,
-				pager: false,
-				nav: true,
-				speed: 900,
-				namespace: "callbacks",
-				before: function () {
-					$('.events').append("<li>before event fired.</li>");
-				},
-				after: function () {
-					$('.events').append("<li>after event fired.</li>");
-				}
-			});
-
-		});
-	</script>
+      (function(d,t) {
+        var BASE_URL = "http://0.0.0.0:3000";
+        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src= BASE_URL + "/packs/js/sdk.js";
+        s.parentNode.insertBefore(g,s);
+        g.onload=function(){
+          window.chatwootSDK.run({
+            websiteToken: 'CE82RGuER85pDeqxqtnA4Maw',
+            baseUrl: BASE_URL
+          })
+        }
+      })(document,"script");
+    </script>
 	<!--// banner-->
 	<!-- OnScroll-Number-Increase-JavaScript -->
 	<script src="js/jquery.waypoints.min.js"></script>
