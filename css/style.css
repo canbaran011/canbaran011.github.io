@@ -503,9 +503,9 @@ a.there-more:nth-child(1) {
     line-height: 26px;
 }
 /*--//about--*/
-/*--services--*/
+/*--services--  background-url../images/s1.jpg url(#)no-repeat center */
 .services {
-    background: url(../images/s1.jpg)no-repeat center;
+    background: #fffafa ;
     background-size: cover;
 }
 .my-ser-left {
