@@ -931,7 +931,7 @@ footer p a:hover{color:white;}
     text-decoration: none;
     position: fixed;
     bottom: 26px;
-    right: 2%;
+    left: 2%;
     overflow: hidden;
     z-index: 999;
     width: 40px;
@@ -947,7 +947,7 @@ footer p a:hover{color:white;}
     height: 40px;
     display: block;
     overflow: hidden;
-    float: right;
+    float: left;
     opacity: 0;
     -moz-opacity: 0;
     filter: alpha(opacity=0);
