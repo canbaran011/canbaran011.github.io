@@ -596,9 +596,9 @@
 		});
 	</script>
 				   
-		<!-- comment comes here -->		   
+		<!-- comment comes here for old chatwoot
 				   
-<script>
+				   <script>
       (function(d,t) {
         var BASE_URL = "https://botart-chat.herokuapp.com";
         var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
@@ -612,8 +612,26 @@
         }
       })(document,"script");
     </script>
+				   -->		   
+				   
+
 			  
 	<!-- //here ends scrolling icon -->
+			  <script>
+      (function(d,t) {
+        var BASE_URL = "https://botart-chatbot.herokuapp.com";
+        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src= BASE_URL + "/packs/js/sdk.js";
+        s.parentNode.insertBefore(g,s);
+        g.onload=function(){
+          window.chatwootSDK.run({
+            websiteToken: '8QncayPxAgK8U8d1aYRCapvU',
+            baseUrl: BASE_URL
+          })
+        }
+      })(document,"script");
+    </script>
+			  
 </body>
 
 </html>
