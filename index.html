@@ -599,7 +599,7 @@
 		<!-- comment comes here for old chatwoot
 				   
 
-				   -->		   
+				   		   
 				   <script>
       (function(d,t) {
         var BASE_URL = "https://botart-chatbot.herokuapp.com";
@@ -614,8 +614,21 @@
         }
       })(document,"script");
     </script>
-
-			  
+-->
+			<script>
+      (function(d,t) {
+        var BASE_URL = "http://0.0.0.0:3000";
+        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src= BASE_URL + "/packs/js/sdk.js";
+        s.parentNode.insertBefore(g,s);
+        g.onload=function(){
+          window.chatwootSDK.run({
+            websiteToken: 'UqtXmcaQ1YGZsnfRefTXCd75',
+            baseUrl: BASE_URL
+          })
+        }
+      })(document,"script");
+    </script>  
 	<!-- //here ends scrolling icon -->
 
 			  
