@@ -910,6 +910,7 @@ img.zoom-img:hover {
 .social-icons ul li:hover {
     background:#00c4ff;
 	color:#fff;
+	box-shadow: 0px -5px 55px 24px #70CFFF;
 }
 footer {
     text-align: center;
