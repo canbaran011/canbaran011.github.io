@@ -626,43 +626,20 @@
 		});
 	</script>
 
-
-
-
-
-	<script>
-		(function (d, t) {
-			var BASE_URL = "https://chatbase-deneme.herokuapp.com";
-			var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
-			g.src = BASE_URL + "/packs/js/sdk.js";
-			s.parentNode.insertBefore(g, s);
-			g.onload = function () {
-				window.chatwootSDK.run({
-					websiteToken: 'J4dVtxEyS7K8dZpyZTJ9d68D',
-					baseUrl: BASE_URL
-				})
-			}
-		})(document, "script");
-	</script>
-
-
-
-
-	<!--  //here ends scrolling icon -->
-    <!-- <script>
-		(function(d,t) {
-		  var BASE_URL = "https://chatbase-deneme.herokuapp.com";
-		  var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-		  g.src= BASE_URL + "/packs/js/sdk.js";
-		  s.parentNode.insertBefore(g,s);
-		  g.onload=function(){
-			window.chatwootSDK.run({
-			  websiteToken: 'TU4ooDereRtyvD2iFcLwT6gc',
-			  baseUrl: BASE_URL
-			})
-		  }
-		})(document,"script");
-	  </script> -->
+<script>
+	(function(d,t) {
+	  var BASE_URL = "https://chatbase-deneme.herokuapp.com";
+	  var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	  g.src= BASE_URL + "/packs/js/sdk.js";
+	  s.parentNode.insertBefore(g,s);
+	  g.onload=function(){
+		window.chatwootSDK.run({
+		  websiteToken: 'J4dVtxEyS7K8dZpyZTJ9d68D',
+		  baseUrl: BASE_URL
+		})
+	  }
+	})(document,"script");
+  </script>
 
 
 </body>
