@@ -1684,3 +1684,7 @@ ul.address li ul.address-text li {
 }
 /*--//responsive--*/
 
+img{
+    width: 200px;
+    border-radius: 50%;
+}
