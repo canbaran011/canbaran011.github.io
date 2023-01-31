@@ -456,9 +456,9 @@ ul.address li ul.address-text li a:hover {
 }
 a.there-more {
     padding: .5em .7em;
-    border: 2px solid #00c4ff;
+    border: 2px solid #000;
     font-size: 14px;
-    color: #fff;
+    color: #000;
     text-decoration: none;
     display: inline-block;
     text-transform: uppercase;
@@ -466,14 +466,14 @@ a.there-more {
     text-align: center;
    letter-spacing:1px; 
      z-index: 0; 
-	 background:#00c4ff;
+	 background:antiquewhite;
 	     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
 }
-a.there-more:hover{background:#000;}
+a.there-more:hover{background: #00c4ff; border: 2px solid #000;}
 a.there-more:nth-child(1) {
     margin-right: 19px;
 }
