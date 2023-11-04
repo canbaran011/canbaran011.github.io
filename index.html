@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
 	<title>Can Baran Gündüz </title>
@@ -46,24 +46,36 @@
 	<!--//stylesheets-->
 
 	<link href="//fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
+	<script src="https://cdn.tailwindcss.com"></script>
+	<script>
+	  tailwind.config = {
+		theme: {
+		  extend: {
+			colors: {
+			  clifford: '#da373d',
+			}
+		  }
+		}
+	  }
+	</script>
 
 
 	<!-- <script src="//code.jivosite.com/widget/hQ3SIQQtPB" async></script> -->
 </head>
 
-<body style="background-color: antiquewhite;">
+<body class="container bg-slate-300">
 	<!-- navigation section -->
 
 	<!-- //banner -->
 	<!--about -->
-	<div class="capsule">
+	<div class="">
 		<div class="about" id="about" style="height: 100vh;">
 			<div class="container">
 				<!-- <div class="col-sm-4 about-left ">
 					<img src="images/canbaran.jpeg" class="img-responsive" alt="CAN BARAN">
 				</div> -->
 				<div class="col-md-12 about-right">
-					<div class="about-me">
+					<div class="about-me rounded-md">
 						<h2>Can Baran GÜNDÜZ </h2>
 						<h4>Software Engineer </h4>
 					</div>
@@ -95,100 +107,38 @@
 						</div>
 	
 					</div>
+					<footer class=" rounded-md bg-gradient-to-r from-sky-500 to-indigo-800">
+						<div class="social-icons rounded-md">
+				
+							<ul>
+								<a href="https://github.com/canbaran011" target="_blank">
+									<li><span class="fa fa-github text-white"></span></li>
+								</a>
+								<a href="https://www.linkedin.com/in/can-baran-gunduz/" target="_blank">
+									<li><span class="fa fa-linkedin text-white"></span></li>
+								</a>
+								<a href="https://www.facebook.com/canbaran011" target="_blank">
+									<li><span class="fa fa-facebook text-white"></span></li>
+								</a>
+							</ul>
+							
+						</div>
+				
+						<p class="cbg text-white uppercase antialiased font-bold tracking-wider">CBG</a></p>
+						
+					</footer>
 	
 				</div>
-				<div class="clearfix"> </div>
+				<!-- <div class="clearfix"> </div> -->
 
 			</div>
 		</div>
 
-		<footer>
-			<div class="social-icons">
-	
-				<ul>
-					<a href="https://github.com/canbaran011" target="_blank">
-						<li><span class="fa fa-github"></span></li>
-					</a>
-					<a href="https://www.linkedin.com/in/can-baran-gunduz/" target="_blank">
-						<li><span class="fa fa-linkedin"></span></li>
-					</a>
-					<a href="https://www.facebook.com/canbaran011" target="_blank">
-						<li><span class="fa fa-facebook"></span></li>
-					</a>
-				</ul>
-				
-			</div>
-	
-			<p>CBG</a></p>
-			
-		</footer>
+
 	</div>
-
-
-	<!--js working-->
-	<script src='js/jquery-2.2.3.min.js'></script>
-	<script src="js/bootstrap.js"></script>
-	<!--//js working-->
-	<!--nav menu-->
-	<script src="js/classie.js"></script>
-	<script src="js/demo1.js"></script>
-	<!-- //nav menu-->
-	<!-- gallery -->
-	<script src="js/lightbox-plus-jquery.min.js"></script>
-	<!-- //gallery -->
-	<!--banner-->
-
 	<script src="js/responsiveslides.min.js"></script>
 
 
-	<!--// banner-->
-	<!-- OnScroll-Number-Increase-JavaScript -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/jquery.countup.js"></script>
-	<script>
-		$('.counter').countUp();
-	</script>
-	<!-- //OnScroll-Number-Increase-JavaScript -->
-
-	<!-- start-smoth-scrolling -->
-	<script src="js/move-top.js"></script>
-	<script src="js/easing.js"></script>
-	<script>
-		jQuery(document).ready(function ($) {
-			$(".scroll").click(function (event) {
-				event.preventDefault();
-				$('html,body').animate({
-					scrollTop: $(this.hash).offset().top
-				}, 900);
-			});
-		});
-	</script>
-	<!-- start-smoth-scrolling -->
-	<!-- here stars scrolling icon -->
-	<script>
-		$(document).ready(function () {
-
-			var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear'
-			};
-
-
-			$().UItoTop({
-				easingType: 'easeOutQuart'
-			});
-
-		});
-	</script>
-
-<!-- CHATWOOT SCRIPT  COMES BELOW THAT PART -->
-
-  
-
-
-<!-- CHATWOOT SCRIPT  COMES ABOVE THAT PART -->
 
 </body>
 
